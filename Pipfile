@@ -9,6 +9,9 @@ flake8 = "*"
 black = "*"
 
 [packages]
+requests = "*"
+beautifulsoup4 = "*"
+pypdf2 = "*"
 
 [requires]
 python_version = "3.8"
