@@ -18,8 +18,6 @@ def createSetting(*args):
 
     try:
         pass
-    except Error as EOFError:
-        pass
     finally:
         pass
 
@@ -39,8 +37,6 @@ def readSetting(*args):
 
     try:
         pass
-    except expression as identifier:
-        pass
     finally:
         pass
     return
@@ -58,8 +54,6 @@ def deleteSetting(*args):
     """
 
     try:
-        pass
-    except expression as identifier:
         pass
     finally:
         pass
