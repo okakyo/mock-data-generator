@@ -2,10 +2,12 @@ import PyPDF2
 import glob
 import os
 
+# コマンドが実行されればPDFを生成してくれる
+
 
 def createPDF(dirName: str):
 
-    # 存在しなければエラー出して停止
+    # without dirName: Error
     if "url" + dirName:
         return ""
     return
