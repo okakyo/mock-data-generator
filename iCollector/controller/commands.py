@@ -1,19 +1,17 @@
 import argparse
 
 
-def getAllArguments() -> object:
+def parseArguments() -> object:
     """
-    Difinition of the commands in the CLIs Tools
+    parseArguments [summary]
 
-    Arguments
-    ---------
-    - URLs: str
-        - set the site URL Scraping the scoped imgs
-    - ispdf: boolean
-        - Convert all scraped imgs into a PDF file
-    - pdfName: str
-        - set the Converted PDF File's name
+    Args:
+        - url
+        - -p, --pdf
+        - a
 
+    Returns:
+        object: [description]
     """
 
     parser = argparse.ArgumentParser(
