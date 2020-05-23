@@ -1,13 +1,13 @@
 import argparse
-from iCollector.controller import parseArguments
+from controller import commands
 
 
 def main():
 
     # parsedArgs: validate and parse arguments.
-    parsedArgs = parseArguments()
-    if parsedArgs:
-        pass
+    parsedArgs = commands.parseArguments()
+    # 取得したパースをもとに。何を実行するかを管理する
+    print(parsedArgs.url)
     pass
 
 
