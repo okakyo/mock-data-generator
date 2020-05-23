@@ -7,6 +7,7 @@ def main():
     # parsedArgs: validate and parse arguments.
     parsedArgs = commands.parseArguments()
     # 取得したパースをもとに。何を実行するかを管理する
+    print(parsedArgs)
     print(parsedArgs.url)
     pass
 
