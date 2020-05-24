@@ -9,7 +9,6 @@ def parseArguments() -> object:
         - url
         - -p, --pdf
         - a
-
     Returns:
         object: [description]
     """
@@ -22,7 +21,10 @@ def parseArguments() -> object:
         "url", help="set the site URL you want to sraping imgs"
     )
     parser.add_argument(
-        "-p", "--pdf", help="covert all scraped images to a PDF file"
+        "-p",
+        "--pdf",
+        help="covert all scraped images to a PDF file",
+        default=False,
     )
     parser.add_argument("--arg3", required=False)
     parser.add_argument("-a", "--arg4", required=False)
